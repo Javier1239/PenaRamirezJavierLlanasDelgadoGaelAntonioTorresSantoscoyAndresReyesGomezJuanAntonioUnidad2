@@ -1,6 +1,5 @@
 <?php
 
 $connection = mysqli_connect(
-  'localhost', 'root', '', 'vet'
-);
+  'localhost', 'root', '', 'vet');
 ?>

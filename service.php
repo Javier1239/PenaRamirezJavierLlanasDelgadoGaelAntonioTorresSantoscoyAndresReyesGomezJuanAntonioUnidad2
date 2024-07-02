@@ -27,6 +27,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="sub_page">
@@ -53,19 +54,13 @@
             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="service.php">Service </a>
+            <a class="nav-link" href="service.php">Sevicios </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pet.php">Pet's gallery </a>
+            <a class="nav-link" href="pet.php">Calculadora de edad </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="clinic.php">Clinic</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="buy.php">Buy now</a>
+            <a class="nav-link" href="buy.php">Razas de perros</a>
           </li>
         </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -74,7 +69,7 @@
             </div>
             <div class="quote_btn-container  d-flex justify-content-center">
               <a href="">
-                Call: +01 1234567890
+                Llama: +01 1234567890
               </a>
             </div>
           </div>
@@ -89,12 +84,12 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 offset-md-2">
-          <h2 class="custom_heading">
+          <h2 class="custom_heading" data-aos="flip-up" data-aos-offset="300">
             Our <span>Services</span>
           </h2>
           <div class="container layout_padding2">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4" data-aos="fade-up">
                 <div class="img_box">
                   <img src="images/s-1.png" alt="">
                 </div>
@@ -108,7 +103,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4" data-aos="fade-down">
                 <div class="img_box">
                   <img src="images/s-2.png" alt="">
                 </div>
@@ -122,7 +117,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4" data-aos="fade-up">
                 <div class="img_box">
                   <img src="images/s-3.png" alt="">
                 </div>
@@ -202,12 +197,14 @@
   <!-- end info_section -->
 
   <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
-    </p>
-  </section>
+  <section class="container-fluid footer_section bg-white text-white py-3">
+    <div class="container text-center">
+        <p class="mb-0">
+            &copy; 2019 All Rights Reserved By
+            <a href="https://html.design/" class="text-reset">Chopper Bzr</a>
+        </p>
+    </div>
+</section>
   <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -231,6 +228,10 @@
       });
     });
   </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>

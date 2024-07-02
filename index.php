@@ -60,12 +60,6 @@
             <a class="nav-link" href="pet.php">Calculadora de edad </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="clinic.php">Clinica</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.php">Conactos</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="buy.php">Razas de perros</a>
           </li>
         </ul>
@@ -75,7 +69,7 @@
             </div>
             <div class="quote_btn-container  d-flex justify-content-center">
               <a href="">
-                Call: +01 1234567890
+                Llama: +01 1234567890
               </a>
             </div>
           </div>
@@ -189,7 +183,7 @@
               </span>
             </h2>
             <p>
-            Bienvenidos a la Clínica Petology, donde la compasión se une con la experiencia en el cuidado de mascotas. Nuestra misión es proporcionar servicios veterinarios excepcionales adaptados a las necesidades únicas de tus queridas mascotas. Lorem Ipsum es simplemente el texto de relleno de la industria de la impresión y composición tipográfica. Con una trayectoria de excelencia, Lorem Ipsum ha sido el estándar de confianza en la atención de mascotas durante décadas. Nuestro dedicado equipo de veterinarios y personal están comprometidos en asegurar la salud y felicidad de cada amigo peludo que cruza nuestras puertas. Descubre una clínica donde el bienestar de tu mascota es nuestra prioridad, asegurando que reciban el amor y cuidado que se merecen.
+            Bienvenidos a la Clínica Petology, donde la compasión se une con la experiencia en el cuidado de mascotas. Nuestra misión es proporcionar servicios veterinarios excepcionales adaptados a las necesidades únicas de tus queridas mascotas. 
             </p>
             <div>
               <a href="">
@@ -388,12 +382,16 @@
   <!-- end info_section -->
 
   <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
-    </p>
-  </section>
+  <section class="container-fluid footer_section bg-white text-white py-3">
+    <div class="container text-center">
+        <p class="mb-0">
+            &copy; 2019 All Rights Reserved By
+            <a href="https://html.design/" class="text-reset">Chopper Bzr</a>
+        </p>
+    </div>
+</section>
+
+
   <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>

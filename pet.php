@@ -48,33 +48,27 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="service.php">servicios </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pet.php">Calculadora de edad </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="clinic.php"> clinica</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.php">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="buy.php">Razas de perros </a>
-                </li>
-              </ul>
+            <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.php">Sevicios </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pet.php">Calculadora de edad </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="buy.php">Razas de perros</a>
+          </li>
+        </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
             </div>
             <div class="quote_btn-container  d-flex justify-content-center">
               <a href="">
-                Call: +01 1234567890
+                Llama: +01 1234567890
               </a>
             </div>
           </div>
@@ -102,31 +96,10 @@
                 Clinic
               </span>
             </h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since theLorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-            </p>
             <div>
 
-            <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        label, input, button {
-            display: block;
-            margin: 10px 0;
-        }
-        #resultado {
-            margin-top: 20px;
-            font-weight: bold;
-        }
-    </style>
-    <body>
       <!-- Calculadora de Edad de Perros -->
     <div>
-        <h2>Calculadora de Edad de Perros</h2>
         <label for="dogAge">Edad del perro (en años):</label>
         <input type="number" id="dogAge" placeholder="Ingresa la edad del perro">
         <button onclick="calcularEdadHumana()">Calcular Edad en Años Humanos</button>
@@ -152,7 +125,7 @@
             document.getElementById('resultado').textContent = `La edad del perro en años humanos es: ${edadHumana}`;
         }
     </script>
-</body>
+
             </div>
           </div>
         </div>
@@ -207,16 +180,37 @@
   <!-- end info_section -->
 
   <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
-    </p>
-  </section>
+  <section class="container-fluid footer_section bg-white text-white py-3">
+    <div class="container text-center">
+        <p class="mb-0">
+            &copy; 2019 All Rights Reserved By
+            <a href="https://html.design/" class="text-reset">Chopper Bzr</a>
+        </p>
+    </div>
+</section>
   <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script>
+    // Obtener todos los enlaces del navbar
+    var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+    // Agregar eventos de mouse a cada enlace
+    navLinks.forEach(function(link) {
+      link.addEventListener('mouseenter', function() {
+        // Cambiar el fondo y color del texto cuando el mouse entra
+        link.style.backgroundColor = '#007bff';
+        link.style.color = '#fff';
+      });
+
+      link.addEventListener('mouseleave', function() {
+        // Restaurar el fondo y color del texto cuando el mouse sale
+        link.style.backgroundColor = '';
+        link.style.color = '';
+      });
+    });
+  </script>
 
 
 </body>

@@ -48,33 +48,27 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="service.php">service </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pet.php">Calculadora de edad</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="clinic.php"> clinica</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.php">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="buy.php"> Razas de perros </a>
-                </li>
-              </ul>
+            <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.php">Sevicios </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pet.php">Calculadora de edad </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="buy.php">Razas de perros</a>
+          </li>
+        </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
             </div>
             <div class="quote_btn-container  d-flex justify-content-center">
               <a href="">
-                Call: +01 1234567890
+                Llama: +01 1234567890
               </a>
             </div>
           </div>
@@ -133,9 +127,69 @@
             }
         }
 </script>
-
+<p>
+  
+</p>
 
 </div>
+  <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="info_items">
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-1">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                Location
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-2">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                +02 1234567890
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-3">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                demo@gmail.com
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section bg-white text-white py-3">
+    <div class="container text-center">
+        <p class="mb-0">
+            &copy; 2019 All Rights Reserved By
+            <a href="https://html.design/" class="text-reset">Chopper Bzr</a>
+        </p>
+    </div>
+</section>
+  <!-- footer section -->
+
+
 
 
  
