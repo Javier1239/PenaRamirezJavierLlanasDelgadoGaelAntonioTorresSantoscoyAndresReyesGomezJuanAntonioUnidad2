@@ -314,30 +314,26 @@
     <div class="form_container ">
       <div class="row">
         <div class="col-md-8 col-sm-10 offset-md-4">
-          <form action="">
-            <div class="text-center">
-              <h3>
-                Contact Us
-              </h3>
-            </div>
-            <div>
-              <input type="text" placeholder="Name" class="pt-3">
-            </div>
-            <div>
-              <input type=" text" placeholder="Pone Number">
-            </div>
-            <div>
-              <input type="email" placeholder="Email">
-            </div>
-            <div>
-              <input type="text" class="message-box" placeholder="Message">
-            </div>
-            <div class="d-flex justify-content-center">
-              <button>
-                SEND
-              </button>
-            </div>
-          </form>
+        <form id="task-form">
+          <div class="text-center">
+            <h3>Contactanos</h3>
+          </div>
+          <div>
+            <input type="text" id="name" placeholder="Nombre" class="pt-3" required>
+          </div>
+          <div>
+            <input type="number" id="telefono" placeholder="Numero de telefono" required>
+          </div>
+          <div>
+            <input type="email" id="email" placeholder="Email" required>
+          </div>
+          <div>
+            <input type="text" class="message-box" id="mensaje" placeholder="Mensaje" required>
+          </div>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary btn-block text-center">ENVIAR</button>
+          </div>
+        </form>
         </div>
       </div>
     </div>
@@ -456,6 +452,8 @@
 <script>
   AOS.init();
 </script>
+
+<script src="app.js"></script>
 </body>
 
 </html>
