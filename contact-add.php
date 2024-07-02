@@ -15,7 +15,7 @@ if (isset($_POST['name']) && isset($_POST['telefono']) && isset($_POST['email'])
     die('Query Failed.');
   }
   
-  echo "Contacto añadido correctamente";
+  echo "Mensaje enviado correctamente";
 }
 
 ?>
