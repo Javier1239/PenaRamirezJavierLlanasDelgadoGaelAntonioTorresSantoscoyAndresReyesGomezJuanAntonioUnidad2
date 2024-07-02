@@ -48,26 +48,26 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
-            <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="service.php">Service </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pet.php">Pet's gallery </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="clinic.php">Clinic</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="buy.php">Buy now</a>
-          </li>
-        </ul>
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.php">service </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pet.php">Calculadora de edad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="clinic.php"> clinica</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.php">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="buy.php"> Razas de perros </a>
+                </li>
+              </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
@@ -82,206 +82,67 @@
       </div>
     </header>
     <!-- end header section -->
-  </div>
-
 
   <!-- buy section -->
 
   <section class="buy_section layout_padding">
     <div class="container">
       <h2>
-        You Can Buy Pet From Our Clinic
+      Obtener Información de Razas de Perros
       </h2>
       <p>
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      Cada raza de perro tiene características únicas que pueden influir en su cuidado, 
+      temperamento y adaptabilidad a diferentes entornos. 
+      La elección de la raza adecuada depende de tus preferencias personales, 
+      estilo de vida y capacidad para proporcionar el cuidado adecuado que cada perro necesita. 
       </p>
-      <div class="d-flex justify-content-center">
-        <a href="">
-          Buy Now
-        </a>
-      </div>
     </div>
   </section>
-
   <!-- end buy section -->
+ <!-- Obtener Información de Razas de Perros -->
+ <div class="container">
+        <h2>Razas de Perros</h2>
+        <button onclick="obtenerInformacionRaza()">Obtener Información de Raza</button>
+        <div id="informacionRaza"></div>
+   
 
-  <!-- client section -->
-  <section class="client_section layout_padding-bottom">
-    <div class="container">
-      <h2 class="custom_heading text-center">
-        What Say Our
-        <span>
-          clients
-        </span>
-      </h2>
-      <p class="text-center">
-        orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut la
-      </p>
-      <div id="carouselExample2Indicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExample2Indicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExample2Indicators" data-slide-to="1"></li>
-          <li data-target="#carouselExample2Indicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="layout_padding2 pl-100">
-              <div class="client_container ">
-                <div class="img_box">
-                  <img src="images/client.jpg" alt="">
-                </div>
-                <div class="detail_box">
-                  <h5>
-                    Sandy Mark
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="layout_padding2 pl-100">
-              <div class="client_container ">
-                <div class="img_box">
-                  <img src="images/client.jpg" alt="">
-                </div>
-                <div class="detail_box">
-                  <h5>
-                    Sandy Mark
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="layout_padding2 pl-100">
-              <div class="client_container ">
-                <div class="img_box">
-                  <img src="images/client.jpg" alt="">
-                </div>
-                <div class="detail_box">
-                  <h5>
-                    Sandy Mark
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <script>
+        // Función asíncrona para obtener información de una raza de perros
+        async function obtenerInformacionRaza() {
+            try {
+                // URL de la API de razas de perros
+                const apiUrl = 'https://dog.ceo/api/breeds/image/random';
 
-      </div>
+                // Realizar la solicitud a la API usando fetch y await para esperar la respuesta
+                const respuesta = await fetch(apiUrl);
+                const datos = await respuesta.json();
+
+                // Mostrar la imagen de la raza en el elemento <div> con id "informacionRaza"
+                const imagenRaza = document.createElement('img');
+                imagenRaza.src = datos.message;
+                imagenRaza.alt = 'Imagen aleatoria de raza de perro';
+                imagenRaza.style.maxWidth = '100%';
+                
+                // Limpiar contenido previo si existe
+                const contenedorRaza = document.getElementById('informacionRaza');
+                contenedorRaza.innerHTML = '';
+                contenedorRaza.appendChild(imagenRaza);
+            } catch (error) {
+                console.error('Error al obtener información de raza de perro:', error);
+                document.getElementById('informacionRaza').textContent = 'Ocurrió un error al obtener la información de la raza de perro.';
+            }
+        }
+</script>
 
 
-    </div>
-
-  </section>
-  <!-- end client section -->
+</div>
 
 
-  <!-- info section -->
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="info_items">
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-1">
-              <img src="" alt="">
-            </div>
-            <div class="detail-box">
-              <p>
-                Location
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-2">
-              <img src="" alt="">
-            </div>
-            <div class="detail-box">
-              <p>
-                +02 1234567890
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-3">
-              <img src="" alt="">
-            </div>
-            <div class="detail-box">
-              <p>
-                demo@gmail.com
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- end info_section -->
-
-  <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="https://html.design/">Free Html Templates</a>
-    </p>
-  </section>
-  <!-- footer section -->
+ 
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 
-  <script>
-    // Obtener todos los enlaces del navbar
-    var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-
-    // Agregar eventos de mouse a cada enlace
-    navLinks.forEach(function(link) {
-      link.addEventListener('mouseenter', function() {
-        // Cambiar el fondo y color del texto cuando el mouse entra
-        link.style.backgroundColor = '#007bff';
-        link.style.color = '#fff';
-      });
-
-      link.addEventListener('mouseleave', function() {
-        // Restaurar el fondo y color del texto cuando el mouse sale
-        link.style.backgroundColor = '';
-        link.style.color = '';
-      });
-    });
-  </script>
 </body>
 
 </html>

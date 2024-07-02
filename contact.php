@@ -53,19 +53,19 @@
             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="service.php">Service </a>
+            <a class="nav-link" href="service.php">Servicio </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pet.php">Pet's gallery </a>
+            <a class="nav-link" href="pet.php">Calculadora de edad </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="clinic.php">Clinic</a>
+            <a class="nav-link" href="clinic.php">Clinica</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact us</a>
+            <a class="nav-link" href="contact.php">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="buy.php">Buy now</a>
+            <a class="nav-link" href="buy.php">Razas de perros</a>
           </li>
         </ul>
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>

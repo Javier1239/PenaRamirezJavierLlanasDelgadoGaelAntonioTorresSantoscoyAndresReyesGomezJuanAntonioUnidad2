@@ -59,7 +59,7 @@
                   <a class="nav-link" href="pet.php">Calculadora de edad </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="clinic.php"> clinic</a>
+                  <a class="nav-link" href="clinic.php"> clinica</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.php">Contacto</a>
