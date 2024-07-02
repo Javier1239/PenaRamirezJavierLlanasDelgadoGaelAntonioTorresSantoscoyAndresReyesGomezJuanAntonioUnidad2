@@ -13,6 +13,7 @@
   <meta name="author" content="" />
 
   <title>Petology</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -96,7 +97,7 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-4 offset-md-2">
-                  <div class="slider_detail-box">
+                  <div class="slider_detail-box" data-aos="fade-right" data-aos-offset="300">
                     <h1>
                       Professional
                       <span>
@@ -241,13 +242,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <div class="img-box">
+          <div class="img-box" data-aos="fade-down-right" data-aos-offset="300">
             <img src="images/about.png" alt="">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
-            <h2 class="custom_heading">
+            <h2 class="custom_heading" data-aos="flip-up" data-aos-offset="300">
               About Our Pets
               <span>
                 Clinic
@@ -274,12 +275,12 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 offset-md-2">
-          <h2 class="custom_heading">
+          <h2 class="custom_heading" data-aos="flip-up" data-aos-offset="300">
             Our <span>Services</span>
           </h2>
           <div class="container layout_padding2">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4" data-aos="fade-up">
                 <div class="img_box">
                   <img src="images/s-1.png" alt="">
                 </div>
@@ -293,7 +294,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4" data-aos="fade-down">
                 <div class="img_box">
                   <img src="images/s-2.png" alt="">
                 </div>
@@ -307,7 +308,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4" data-aos="fade-up">
                 <div class="img_box">
                   <img src="images/s-3.png" alt="">
                 </div>
@@ -617,6 +618,10 @@
   </script>
   <!-- end google map js -->
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
