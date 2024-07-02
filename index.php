@@ -51,22 +51,22 @@
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html">service </a>
+                  <a class="nav-link" href="service.php">Servicios </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pet.html">Pet's gallery </a>
+                  <a class="nav-link" href="pet.php">Galeria </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="clinic.html"> clinic</a>
+                  <a class="nav-link" href="clinic.php"> Clinica</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
+                  <a class="nav-link" href="contact.php">Contactanos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="buy.html"> Buy now </a>
+                  <a class="nav-link" href="buy.php"> Compra ahora </a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -89,19 +89,19 @@
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <div class="carousel-item active">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-4 offset-md-2">
-                  <div class="slider_detail-box" data-aos="fade-right" data-aos-offset="300">
+                  <div class="slider_detail-box" >
                     <h1>
-                      Professional
+                      Cuidado profesional
                       <span>
-                        Care Your Pet
+                        para tu mascota
                       </span>
                     </h1>
                     <p>
@@ -111,10 +111,10 @@
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn-1">
-                        Buy now
+                        Compra ahora
                       </a>
                       <a href="" class="btn-2">
-                        Contact
+                        Contactanos
                       </a>
                     </div>
                   </div>
@@ -133,9 +133,9 @@
                 <div class="col-md-4 offset-md-2">
                   <div class="slider_detail-box">
                     <h1>
-                      Professional
+                      Profesionales calificados
                       <span>
-                        Care Your Pet
+                        Para el cuidado de tus mascotas
                       </span>
                     </h1>
                     <p>
@@ -145,83 +145,17 @@
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn-1">
-                        Buy now
+                        Compra ahora
                       </a>
                       <a href="" class="btn-2">
-                        Contact
+                        Contactanos
                       </a>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="slider_img-box">
-                    <img src="images/slider-img.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-4 offset-md-2">
-                  <div class="slider_detail-box">
-                    <h1>
-                      Professional
-                      <span>
-                        Care Your Pet
-                      </span>
-                    </h1>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
-                      Lorem Ipsum has been the industry's standard dummy text ever
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Buy now
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="slider_img-box">
-                    <img src="images/slider-img.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-4 offset-md-2">
-                  <div class="slider_detail-box">
-                    <h1>
-                      Professional
-                      <span>
-                        Care Your Pet
-                      </span>
-                    </h1>
-                    <p>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
-                      Lorem Ipsum has been the industry's standard dummy text ever
-                    </p>
-                    <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Buy now
-                      </a>
-                      <a href="" class="btn-2">
-                        Contact
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                   <div class="slider_img-box">
                     <img src="images/slider-img.png" alt="">
                   </div>
@@ -349,19 +283,19 @@
       </h2>
     </div>
     <div class="container ">
-      <div class="img_box box-1">
+      <div class="img_box box-1" data-aos="zoom-out">
         <img src="images/g-1.png" alt="">
       </div>
-      <div class="img_box box-2">
+      <div class="img_box box-2" data-aos="zoom-out">
         <img src="images/g-2.png" alt="">
       </div>
-      <div class="img_box box-3">
+      <div class="img_box box-3" data-aos="zoom-out">
         <img src="images/g-3.png" alt="">
       </div>
-      <div class="img_box box-4">
+      <div class="img_box box-4" data-aos="zoom-out">
         <img src="images/g-4.png" alt="">
       </div>
-      <div class="img_box box-5">
+      <div class="img_box box-5" data-aos="zoom-out">
         <img src="images/g-5.png" alt="">
       </div>
     </div>
@@ -370,125 +304,6 @@
 
 
   <!-- end gallery section -->
-
-  <!-- buy section -->
-
-  <section class="buy_section layout_padding">
-    <div class="container">
-      <h2>
-        You Can Buy Pet From Our Clinic
-      </h2>
-      <p>
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      </p>
-      <div class="d-flex justify-content-center">
-        <a href="">
-          Buy Now
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- end buy section -->
-
-  <!-- client section -->
-  <section class="client_section layout_padding-bottom">
-    <div class="container">
-      <h2 class="custom_heading text-center">
-        What Say Our
-        <span>
-          clients
-        </span>
-      </h2>
-      <p class="text-center">
-        orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut la
-      </p>
-      <div id="carouselExample2Indicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExample2Indicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExample2Indicators" data-slide-to="1"></li>
-          <li data-target="#carouselExample2Indicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="layout_padding2 pl-100">
-              <div class="client_container ">
-                <div class="img_box">
-                  <img src="images/client.jpg" alt="">
-                </div>
-                <div class="detail_box">
-                  <h5>
-                    Sandy Mark
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="layout_padding2 pl-100">
-              <div class="client_container ">
-                <div class="img_box">
-                  <img src="images/client.jpg" alt="">
-                </div>
-                <div class="detail_box">
-                  <h5>
-                    Sandy Mark
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="layout_padding2 pl-100">
-              <div class="client_container ">
-                <div class="img_box">
-                  <img src="images/client.jpg" alt="">
-                </div>
-                <div class="detail_box">
-                  <h5>
-                    Sandy Mark
-                  </h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea
-                    commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
-    </div>
-
-  </section>
-  <!-- end client section -->
 
   <!-- map section -->
 
