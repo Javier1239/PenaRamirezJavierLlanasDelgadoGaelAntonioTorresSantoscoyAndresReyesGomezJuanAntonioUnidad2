@@ -48,26 +48,26 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
-            <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="service.php">Service </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pet.php">Pet's gallery </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="clinic.php">Clinic</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="buy.php">Buy now</a>
-          </li>
-        </ul>
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.php">servicios </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pet.php">Calculadora de edad </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="clinic.php"> clinic</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.php">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="buy.php">Razas de perros </a>
+                </li>
+              </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
@@ -84,35 +84,81 @@
     <!-- end header section -->
   </div>
 
-  <!-- gallery section -->
-  <section class="gallery-section layout_padding">
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
     <div class="container">
-      <h2>
-        Our Gallery
-      </h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/about.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h2 class="custom_heading">
+              Calcula la edad de tus mascotas
+              <span>
+                Clinic
+              </span>
+            </h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since theLorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+            </p>
+            <div>
+
+            <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, input, button {
+            display: block;
+            margin: 10px 0;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+    <body>
+      <!-- Calculadora de Edad de Perros -->
+    <div>
+        <h2>Calculadora de Edad de Perros</h2>
+        <label for="dogAge">Edad del perro (en años):</label>
+        <input type="number" id="dogAge" placeholder="Ingresa la edad del perro">
+        <button onclick="calcularEdadHumana()">Calcular Edad en Años Humanos</button>
+        <p id="resultado"></p>
     </div>
-    <div class="container ">
-      <div class="img_box box-1">
-        <img src="images/g-1.png" alt="">
-      </div>
-      <div class="img_box box-2">
-        <img src="images/g-2.png" alt="">
-      </div>
-      <div class="img_box box-3">
-        <img src="images/g-3.png" alt="">
-      </div>
-      <div class="img_box box-4">
-        <img src="images/g-4.png" alt="">
-      </div>
-      <div class="img_box box-5">
-        <img src="images/g-5.png" alt="">
+    
+    <script>
+        // Función síncrona para calcular la edad de un perro en años humanos
+        function calcularEdadHumana() {
+            // Obtener el valor de la edad del perro desde el input
+            const edadPerro = document.getElementById('dogAge').value;
+
+            // Verificar que el valor ingresado sea un número válido
+            if (isNaN(edadPerro) || edadPerro === '') {
+                alert('Por favor, ingresa una edad válida para el perro.');
+                return;
+            }
+
+            // Calcular la edad en años humanos (1 año de perro = 7 años humanos)
+            const edadHumana = edadPerro * 7;
+
+            // Mostrar el resultado en el elemento <p> con id "resultado"
+            document.getElementById('resultado').textContent = `La edad del perro en años humanos es: ${edadHumana}`;
+        }
+    </script>
+</body>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-
-
-
-  <!-- end gallery section -->
 
   <!-- info section -->
   <section class="info_section layout_padding2">
@@ -171,25 +217,8 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script>
-    // Obtener todos los enlaces del navbar
-    var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 
-    // Agregar eventos de mouse a cada enlace
-    navLinks.forEach(function(link) {
-      link.addEventListener('mouseenter', function() {
-        // Cambiar el fondo y color del texto cuando el mouse entra
-        link.style.backgroundColor = '#007bff';
-        link.style.color = '#fff';
-      });
 
-      link.addEventListener('mouseleave', function() {
-        // Restaurar el fondo y color del texto cuando el mouse sale
-        link.style.backgroundColor = '';
-        link.style.color = '';
-      });
-    });
-  </script>
 </body>
 
 </html>

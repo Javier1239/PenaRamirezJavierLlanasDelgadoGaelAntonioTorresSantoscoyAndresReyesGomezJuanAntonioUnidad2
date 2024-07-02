@@ -57,7 +57,7 @@
             <a class="nav-link" href="service.php">Sevicios </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pet.php">Pet's gallery </a>
+            <a class="nav-link" href="pet.php">Calculadora de edad </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="clinic.php">Clinica</a>
