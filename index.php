@@ -54,19 +54,19 @@
             <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="service.php">Service </a>
+            <a class="nav-link" href="service.php">Sevicios </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="pet.php">Pet's gallery </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="clinic.php">Clinic</a>
+            <a class="nav-link" href="clinic.php">Clinica</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact us</a>
+            <a class="nav-link" href="contact.php">Conactos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="buy.php">Buy now</a>
+            <a class="nav-link" href="buy.php">Comprar ahora</a>
           </li>
         </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -183,19 +183,17 @@
         <div class="col-md-6">
           <div class="detail-box">
             <h2 class="custom_heading" data-aos="flip-up" data-aos-offset="300">
-              About Our Pets
+             Sobre nosotros
               <span>
                 Clinic
               </span>
             </h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since theLorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+            Bienvenidos a la Clínica Petology, donde la compasión se une con la experiencia en el cuidado de mascotas. Nuestra misión es proporcionar servicios veterinarios excepcionales adaptados a las necesidades únicas de tus queridas mascotas. Lorem Ipsum es simplemente el texto de relleno de la industria de la impresión y composición tipográfica. Con una trayectoria de excelencia, Lorem Ipsum ha sido el estándar de confianza en la atención de mascotas durante décadas. Nuestro dedicado equipo de veterinarios y personal están comprometidos en asegurar la salud y felicidad de cada amigo peludo que cruza nuestras puertas. Descubre una clínica donde el bienestar de tu mascota es nuestra prioridad, asegurando que reciban el amor y cuidado que se merecen.
             </p>
             <div>
               <a href="">
-                About More
+               leer más
               </a>
             </div>
           </div>

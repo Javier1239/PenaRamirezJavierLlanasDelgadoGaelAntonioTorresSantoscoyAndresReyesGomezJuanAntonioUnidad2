@@ -48,26 +48,26 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="service.html">service </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="pet.html">Pet's gallery </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="clinic.html"> clinic</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="buy.html"> Buy now </a>
-                </li>
-              </ul>
+            <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="service.php">Service </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pet.php">Pet's gallery </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clinic.php">Clinic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.php">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="buy.php">Buy now</a>
+          </li>
+        </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
@@ -171,7 +171,25 @@
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script>
+    // Obtener todos los enlaces del navbar
+    var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 
+    // Agregar eventos de mouse a cada enlace
+    navLinks.forEach(function(link) {
+      link.addEventListener('mouseenter', function() {
+        // Cambiar el fondo y color del texto cuando el mouse entra
+        link.style.backgroundColor = '#007bff';
+        link.style.color = '#fff';
+      });
+
+      link.addEventListener('mouseleave', function() {
+        // Restaurar el fondo y color del texto cuando el mouse sale
+        link.style.backgroundColor = '';
+        link.style.color = '';
+      });
+    });
+  </script>
 </body>
 
 </html>
